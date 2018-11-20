@@ -1,0 +1,48 @@
+{
+  "name": "nuxtjs-boilerplate-with-storybook",
+  "version": "1.0.0",
+  "description": "My bedazzling Nuxt.js project",
+  "author": "",
+  "private": true,
+  "browserslist": [
+    "last 2 version",
+    "android >= 4.4",
+    "IE 11"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@storybook/addon-knobs": "^4.0.7",
+    "@storybook/addon-notes": "^4.0.7",
+    "@storybook/addon-viewport": "^4.0.7",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "storybook-addon-vue-info": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@storybook/addon-actions": "^4.0.7",
+    "@storybook/addon-links": "^4.0.7",
+    "@storybook/addons": "^4.0.7",
+    "@storybook/vue": "^4.0.7",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3"
+  }
+}
